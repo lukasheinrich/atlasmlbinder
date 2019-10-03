@@ -1,3 +1,1 @@
-FROM atlasml/ml-base
-RUN pip install jupyterhub && \
-    pip install jupyterlab
+FROM gitlab-registry.cern.ch/atlas-flavor-tagging-tools/training-images/ml-cpu/ml-cpu
